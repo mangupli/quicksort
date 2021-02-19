@@ -5,7 +5,7 @@ Exercising in quick sorting of float numbers
 
 ```
 git clone https://github.com/mangupli/quicksort.git
-make
+cd quicksort/ && make
 ```
 It will create an executable file ./sort. Pass the numbers as arguments and the program will sort the array from lowest to biggest number using quick sort algorithm.
 
