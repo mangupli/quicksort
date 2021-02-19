@@ -11,3 +11,5 @@ It will create an executable file ./sort. Pass the numbers as arguments and the 
 
 The program works with floats and prints out sorted array with 3 numbers after floating point maximum - this can be changed in printf setting in print_array.
 
+###For Example
+
