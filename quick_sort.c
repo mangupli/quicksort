@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#define NUMBER 5
 
-void	print_int_array(double *array, int len)
+void	print_array(double *array, int len)
 {
 	int i;
 	
@@ -78,10 +77,10 @@ int	start_sorting(char **strings)
 	while (++i < len)
 		values[i] = atof(strings[i]);
 	printf("Actual array: ");
-	print_int_array(values, len);
+	print_array(values, len);
 	quick_sort(values, 0, len - 1);
 	printf("Sorted array: ");
-	print_int_array(values, len);
+	print_array(values, len);
 	free (values);
 	return (0);
 }
